@@ -9,11 +9,15 @@ export class NewsLetterComponent implements OnInit {
 	test:string = "aaaaa";
 	valueDate:Date = new Date();
 	
+		
+	
+	
 	constructor() { 
 
 	}
 
 	ngOnInit(): void {
+		console.log(this.valueDate.getHours());
 	}
 
 
