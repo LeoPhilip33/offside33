@@ -1,3 +1,4 @@
+import { NewsLetterComponent } from './news-letter/news-letter.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AdminComponent } from './admin/admin.component';
@@ -7,9 +8,10 @@ import { LoginComponent } from './login/login.component';
 
 
 const routes: Routes = [
-  { path: 'home', component: HomePageComponent},
+  { path: '', component: HomePageComponent},
   { path: 'connexion', component: LoginComponent },
-  { path: 'admin', component: AdminComponent }
+  { path: 'admin', component: AdminComponent },
+  { path: 'news-letter', component: NewsLetterComponent },
 ];
 
 @NgModule({
