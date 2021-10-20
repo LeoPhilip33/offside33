@@ -1,0 +1,50 @@
+<section class="register-news-letter">
+	<form>
+		<div class="form-group">
+			<label for="genre">Genre</label>
+			<select class="form-control" id="genre">
+				<option>Homme</option>
+				<option>Femme</option>
+				<option>Non spécifié</option>
+			</select>
+		</div>
+		<div class="form-group mt-3">
+			<label for="nom">Nom</label>
+			<input type="text" class="form-control" id="nom" aria-describedby="nom" placeholder="Nom">
+		</div>
+		<div class="form-group mt-3">
+			<label for="prenom">Prenom</label>
+			<input type="text" class="form-control" id="prenom" aria-describedby="prenom" placeholder="Prenom">
+		</div>
+		<div class="form-group mt-3">
+			<label for="email">Email</label>
+			<input type="email" class="form-control" id="email" placeholder="Email">
+		</div>
+		<div class="form-group mt-3">
+			<label for="terrain">Terrain</label>
+			<select class="form-control" id="terrain">
+				<option>Terrain 3v3</option>
+				<option>Terrain 5v5</option>
+			</select>
+		</div>
+		<div class="form-group mt-3">
+			<label for="date">Date</label>
+						
+			<input [value]="valueDate | date: 'yyyy-MM-dd'" class="form-control" type="date" id="date" name="datet" >
+
+			
+		</div>
+		<div class="double-container-input mt-3">
+			<div class="form-group">
+				<label for="start">Horaire début</label>
+				<input [value]="valueDate.getHours()+1+':'+valueDate.getMinutes()" class="form-control" type="time" id="start" name="start">
+			</div>
+			<div class="form-group">
+				<label for="end">Horaire fin</label>
+				<input [value]="valueDate.getHours()+2+':'+valueDate.getMinutes()" class="form-control" type="time" id="end" name="end">
+			</div>
+		</div>
+		
+		<button type="submit" class="btn btn-primary mt-5">Submit</button>
+    </form>
+</section>
