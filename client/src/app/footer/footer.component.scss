@@ -1,4 +1,17 @@
 .footer-container{
-    background-color: black;
+    background-color: #181819;
     color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title-footer{
+  color:#ED194E;
+}
+.flex-logo-footer{
+  display: flex;
+}
+
+.left-footer{
+  margin-left: 15px;
 }
