@@ -40,7 +40,7 @@
 .bk-red-design-footer{
   width: 100%;
   background-color: red;
-  height: 25px;
+  height: 20px;
 }
 
 .alignement-bk-red-footer{
@@ -59,4 +59,9 @@
 .left-ajustement-footer
 {
   margin-left: 20px;
+}
+
+.responsive-image-footer{
+  width: 100%;
+  min-width: 90px;
 }
