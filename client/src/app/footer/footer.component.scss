@@ -1,8 +1,10 @@
 .footer-container{
-    background-color: #181819;
-    color: white;
-    display: flex;
-    justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 0px 20px;
+  background-color: #181819;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .title-footer{
@@ -14,4 +16,47 @@
 
 .left-footer{
   margin-left: 15px;
+}
+
+.img-footer{
+  width: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.espace-txt-footer{
+  margin-bottom: 5px;
+}
+
+.espace-img-footer{
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.container-parts-footer{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.bk-red-design-footer{
+  width: 100%;
+  background-color: red;
+  height: 25px;
+}
+
+.alignement-bk-red-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #181819;
+}
+
+.right-ajustement-footer
+{
+  margin-right: 20px;
+}
+
+
+.left-ajustement-footer
+{
+  margin-left: 20px;
 }
