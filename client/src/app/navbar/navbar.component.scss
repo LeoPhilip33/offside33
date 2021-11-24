@@ -4,7 +4,4 @@ nav{
     height: 10vh;
     width: 100%;
     background-color: $white;
-    border-bottom: solid 1px $orange;
-
-    @include flex-raw-around;
 }
