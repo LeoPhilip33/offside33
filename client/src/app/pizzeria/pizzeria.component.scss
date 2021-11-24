@@ -34,6 +34,7 @@
 }
 
 .pizza-width{
+  position: relative;
   &:nth-child(1){
     grid-area: 1/1 / 2/2;
   }
@@ -43,7 +44,7 @@
 
   flex-direction: column;
   padding: 10px;
-  background-color: $black;
+  background-color: $transparent;
 }
 
 .color-title{
