@@ -24,6 +24,7 @@ import { PrivatePartyComponent } from './private-party/private-party.component';
 import { TournamentComponent } from './tournament/tournament.component';
 import { SeminarComponent } from './seminar/seminar.component';
 import { FakeBorderComponent } from './fake-border/fake-border.component';
+import { PizzeriaComponent } from './pizzeria/pizzeria.component';
 
 @NgModule({
   declarations: [
@@ -49,6 +50,7 @@ import { FakeBorderComponent } from './fake-border/fake-border.component';
     TournamentComponent,
     SeminarComponent,
     FakeBorderComponent,
+    PizzeriaComponent,
   ],
   imports: [
     BrowserModule,
