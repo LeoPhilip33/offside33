@@ -18,11 +18,13 @@ import { SeminarComponent } from './seminar/seminar.component';
 import { AuthGuard } from './auth.guard';
 import { LeagueComponent } from './league/league.component';
 import { CreateElementsComponent } from './create-elements/create-elements.component';
+import { PizzeriaComponent } from './pizzeria/pizzeria.component';
 
 
 
 const routes: Routes = [
   { path: 'crudadd', component: CreateElementsComponent },
+  { path: 'pizzeria', component: PizzeriaComponent },
   { path: 'home', component: HomePageComponent},
   { path: 'league', component: LeagueComponent},
   { path: 'offres', component: OffresComponent},
@@ -48,6 +50,6 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule],
 
-  
+
 })
 export class AppRoutingModule { }
