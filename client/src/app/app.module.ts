@@ -23,6 +23,7 @@ import { AfterWorkComponent } from './after-work/after-work.component';
 import { PrivatePartyComponent } from './private-party/private-party.component';
 import { TournamentComponent } from './tournament/tournament.component';
 import { SeminarComponent } from './seminar/seminar.component';
+import { FakeBorderComponent } from './fake-border/fake-border.component';
 
 @NgModule({
   declarations: [
@@ -47,6 +48,7 @@ import { SeminarComponent } from './seminar/seminar.component';
     PrivatePartyComponent,
     TournamentComponent,
     SeminarComponent,
+    FakeBorderComponent,
   ],
   imports: [
     BrowserModule,
