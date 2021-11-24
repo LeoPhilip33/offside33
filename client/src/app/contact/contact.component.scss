@@ -1,0 +1,73 @@
+@import '../_variables.scss'; 
+
+.offres-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    // background-image: url('https://xboxplay.games/uploadStream/7953.jpg');
+    // background-size: 100%;
+    // background-repeat: no-repeat;
+}
+
+
+
+.grid-wrapper{
+
+    width: 80%;
+    height: 60%;
+    position: relative;
+    margin-left: 5%;
+}
+
+.grid-container{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    width: 100%;
+    height: 100%;
+
+   
+
+    .cells{
+        background-color: $red;
+    }
+
+    .cells:nth-child(1) { grid-area: 1 / 1 / 3 / 4; }
+    .cells:nth-child(2) { grid-area: 1 / 4 / 2 / 5; }
+    .cells:nth-child(3) { grid-area: 2 / 4 / 3 / 5; }
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+
+    .input-container, .double-input-container{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        input,select,textarea{
+            margin-top: 1rem;
+            width: 100%;
+        }
+    }
+
+    .double-input-container{
+        input{
+            width: 48%;
+        }
+    }
+
+    
+
+
+}

@@ -1,6 +1,6 @@
 @import '../_variables.scss'; 
 
-.home-container{
+.offres-container{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,8 +24,8 @@
 .grid-container{
     position: relative;
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     width: 100%;
@@ -35,15 +35,10 @@
 
     div{
         background-color: $red;
+        color: $black;
     }
 
-    div:nth-child(1) { grid-area: 1 / 1 / 6 / 7; }
-    div:nth-child(2) { grid-area: 1 / 7 / 5 / 10; }
-    div:nth-child(3) { grid-area: 1 / 10 / 5 / 13; }
-    div:nth-child(4) { grid-area: 5 / 7 / 9 / 10; }
-    div:nth-child(5) { grid-area: 5 / 10 / 9 / 13; }
-    div:nth-child(6) { grid-area: 6 / 1 / 9 / 7; }
-
-
-    
+    div:nth-child(1) { grid-area: 1 / 1 / 4 / 2; }
+    div:nth-child(2) { grid-area: 1 / 2 / 3 / 3; }
+    div:nth-child(3) { grid-area: 3 / 2 / 4 / 3; }
 }
