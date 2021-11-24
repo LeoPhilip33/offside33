@@ -1,11 +1,19 @@
-@import '../_variables.scss'; 
+@import '../_variables.scss';
 
 .map-icon{
-    position: absolute;
-    bottom: 0;
-    left: -100px;
-    width: calc(100% / 13);
-    height: calc(100% / 5);
-    background-color: $red;
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: -100px;
+  width: calc(100% / 13);
+  height: calc(100% / 5);
+  max-width: 70px;
+  max-height: 70px;
+  background-color: $transparent;
+}
+
+.map-icon{
+
 }
